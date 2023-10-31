@@ -14,7 +14,7 @@ import org.springframework.stereotype.Repository;
 @Repository
 public class PublisherDAO {
 
-    @Autowired(required=true)
+    @Autowired
     @PersistenceContext( unitName= Constants.JPA_UNIT_NAME_1)
     private EntityManager entityManager;
     public List<Publisher> listPublishers() {
