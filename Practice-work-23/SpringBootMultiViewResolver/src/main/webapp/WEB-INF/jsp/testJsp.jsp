@@ -3,7 +3,7 @@
 <html lang="en">
    <head>
        <title>JSP</title>
-</head>
+   </head>
    <body>
    
       <h2>JSP Page</h2>
@@ -11,3 +11,4 @@
       
    </body>
 </html>
+       
